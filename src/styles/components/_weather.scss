@@ -1,0 +1,48 @@
+.weatherInfo{
+
+    /* Bordures du composant weather */
+    margin: 5px;
+    padding: 5px;
+    border: 3px solid #00000082;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    
+    /* Position */
+    width: 20%;
+    height: 30vh;
+    
+    /* Font */
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    
+    /* -----------------------------------------------Bouton------------------------------------------- */
+    bouton{
+        /* Bordures de bouttons */
+        border: black 2px solid;
+        border-radius: 3px;
+        margin: 3px;    
+    }
+        button:hover{ 
+            color: white;
+            background-color: black;
+            
+            /* Bordure */
+            border-radius: 4px;
+            border: black 2px solid;
+            transition: 0.5s;
+    }
+
+    /* -----------------------------------------------Input------------------------------------------- */
+    input{
+        
+        /* Dimensions */
+        width: 70%;
+        height: 25px;
+
+        /* Bordure */
+        border: 1.5px black solid;
+        border-radius: 10px;
+        margin: 5px;
+    }
+}
